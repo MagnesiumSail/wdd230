@@ -1,0 +1,14 @@
+/*element selector*/
+h1 {
+    color: blue;
+}
+
+/*class selector*/
+.name {
+    color:pink;
+}
+
+/*id selectors*/
+#not-blue {
+    color:green;
+}
