@@ -1,0 +1,19 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.orange {
+    background-color: #bd511e;
+}
+.darkblue {
+    color: #28536b;
+}
+.lightblue{
+    color: #7ea8be;
+}
+.offwhite {
+    color: #f6f0ed;
+    background-color: #f6f0ed;
+}
+.tan {
+    color: #bbb193;
+}
