@@ -1,14 +1,82 @@
-/*element selector*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+	font-size: 16px;
+	font-family: "Sansita", sans-serif;
+}
+header {
+	background-color: #63c697;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+main {
+    align-items: center;
+}
+header,
+main {
+	max-width: 767px;
+	margin: 0 auto;
+    align-items: center;
+}
+
 h1 {
-    color: blue;
+	font-size: 2rem;
 }
 
-/*class selector*/
-.name {
-    color:pink;
+nav {
+	background-color: #9B6A6C;
+	margin: 0 auto;
+	max-width: 800px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
 }
 
-/*id selectors*/
-#not-blue {
-    color:green;
+nav a:hover {
+	border: 1px solid #fff;
+}
+
+.active {
+	color: yellow;
+}
+#addedpad{
+    padding-left: 4rem;
+}
+.card {
+    background-color: bisque;
+    display: block;
+    border: 1px solid black;
+    max-width: 400px;
+	padding: 1rem;
+}
+ul {
+	list-style-type: none;
+}
+
+.spacer {
+    padding: 1rem;
+}
+footer {
+    text-align: center;
+    padding: 4rem;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+#setmid {
+	text-align: center;
 }
