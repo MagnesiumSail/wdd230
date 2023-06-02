@@ -1,19 +1,20 @@
 @media (min-width: 640px) {
-    nav ul {
-        display: flex;
-    }
-    nav ul li {
-        flex: 1 1 100%;
-    }
     .MIDDLE {
-        display: grid;
-        grid-template-columns: 2;
-        grid-template-rows: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    #l3ft {
-        grid-column: 1;
-    }
-    #r1ght {
-        grid-column: 2;
-    }
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	
 }
