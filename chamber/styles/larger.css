@@ -1,0 +1,52 @@
+/* Larger Screen CSS */
+
+@media (min-width: 640px) {
+
+    body {
+      width: 80%;
+      margin: auto;
+    }
+  
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    nav {
+      text-align: inherit;
+    }
+  
+    #hero-image img {
+      height: 500px;
+      object-fit: cover;
+    }
+  
+    .cta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    footer {
+      position: inherit;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+      }
+    
+      nav ul li {
+        margin: 0;
+      }
+      #menu {
+        display: none; /* hide hamburger button */
+      }
+    
+    
+      .navigation li {
+        display: block;
+        flex: 1 1 100%;
+      }
+  }
+  
