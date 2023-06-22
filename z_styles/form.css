@@ -1,0 +1,15 @@
+.formarea {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/3;
+}
+.boxed {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+}
+label {
+    padding: 1rem;
+}
+input {
+    padding: 1rem;
+}

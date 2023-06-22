@@ -95,6 +95,36 @@ h2 {
 h1 {
 	font-size: 2rem;
 }
+.hero {
+	width: 100%;
+    height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  .overlay {
+		position: absolute;
+		display:flex;
+		top: 18rem;
+		left: 1rem;
+		background: radial-gradient(#fff, #4D5B97);
+		border: 1px solid rgba(0,0,0,.75);
+		padding: 1.5rem;
+		box-shadow: 0 0 3rem #fff;
+		opacity: 0.75;
+  }
+
+  .map-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.map-container iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 \\-------------------ALIGNMENT------------------\\
 

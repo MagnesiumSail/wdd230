@@ -18,3 +18,8 @@
 	}
 	
 }
+@media (min-width: 740px) {
+	.overlay {
+		left: 20%;
+	}
+}

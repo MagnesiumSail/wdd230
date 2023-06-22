@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="z_styles/form.css">
+    <link rel="stylesheet" href="z_styles/base.css">
+    <link rel="stylesheet" href="z_styles/larger.css">
+    <title>Survey</title>
+</head>
+<body>
+    <header>
+        <h1 id="addedpad">Survey</h1>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="Week1/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#">Survey</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="boxed">
+        <form action="/submit-form" method="post" class="formarea">
+            <label for="username">Username:</label>
+            <input type="password" id="username" name="username" minlength="8" pattern="[a-zA-Z0-9]+" required>
+            
+            <label for="confirm-username">Confirm Username:</label>
+            <input type="password" id="confirm-username" name="confirm-username" minlength="8" pattern="[a-zA-Z0-9]+" required oninput="checkUsernameMatch()">
+            <p id="username-match-error" style="color: red; display: none;">Usernames do not match. Please try again.</p>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address">
+            
+            <label for="page-rating">Page Rating:</label>
+            <input type="range" id="page-rating" name="page-rating" min="1" max="10" step="1" oninput="updateRatingValue()">
+            <span id="rating-value">5</span>
+            
+            <input type="submit" value="Submit">
+          </form>
+          </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="today1"></span> | Indiana Brown | Idaho</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="z_scripts/form.js"></script>
+</body>
+</html>
