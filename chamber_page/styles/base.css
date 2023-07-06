@@ -122,7 +122,7 @@ footer {
 #exactCenter {
   display: flex;
   justify-content: center; /* center horizontally */
-  align-items: center; /* center vertically */
+  align-items: center; /* center vertically  yes*/
 }
 content {
   grid-column: 2 / 4;

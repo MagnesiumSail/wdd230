@@ -27,3 +27,4 @@ if (lastVisit !== 0)
 }
 
 localStorage.setItem("lastVisit-ls" , now);
+//Bruh
