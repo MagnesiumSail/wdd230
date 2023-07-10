@@ -1,0 +1,23 @@
+{
+    "familyName" : "Browne",
+    "moveIn" : "1/23/2011",
+    "numPeople" : 5,
+    "bishopVisit" : true,
+    "famMember" : [
+        {
+            "name" : "Noah",
+            "gender" : "Male",
+            "birth" : "3/16/2003"
+        },
+        {
+            "name" : "John",
+            "gender" : "Male",
+            "birth" : "4/17/1983"
+        },
+        {
+            "name" : "Kenzie",
+            "gender" : "Female",
+            "birth" : "5/18/1985"
+        }
+    ]
+}
