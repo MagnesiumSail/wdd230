@@ -1,0 +1,70 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "Week1/HolyGrail.html",
+            "title": "HG Layout"
+          },
+          {
+            "url": "/path/to/learning_activity_file_2",
+            "title": "Learning Activity 2"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "/path/to/learning_activity_file_3",
+            "title": "Learning Activity 3"
+          },
+          {
+            "url": "/path/to/learning_activity_file_4",
+            "title": "Learning Activity 4"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "/path/to/learning_activity_file_5",
+            "title": "Learning Activity 5"
+          },
+          {
+            "url": "/path/to/learning_activity_file_6",
+            "title": "Learning Activity 6"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "/path/to/learning_activity_file_7",
+            "title": "Learning Activity 7"
+          },
+          {
+            "url": "/path/to/learning_activity_file_8",
+            "title": "Learning Activity 8"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "/path/to/learning_activity_file_9",
+            "title": "Learning Activity 9"
+          },
+          {
+            "url": "/path/to/learning_activity_file_10",
+            "title": "Learning Activity 10"
+          }
+        ]
+      }
+    ]
+  }
+  
