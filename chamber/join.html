@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="styles/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <meta property="og:title" content="Indiana Brown Web Frontend" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://magnesiumsail.github.io/wdd230/" />
+    <meta
+      property="og:image"
+      content="https://www.travellens.co/content/images/2021/09/Rexburg-ID.jpeg"
+    />
+    <title>Rexburg Chamber of Commerce</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+        </ul>
+      </nav>
+      <h1>Welcome to Rexburg Idaho Chamber of Commerce</h1>
+    </header>
+
+    <main>
+      <div class="container">
+          <form action="thankyou.html" method="get">
+            <label for="first-name">
+                First Name:
+                <input type="text" id="first-name" name="first-name" required>
+            </label>
+  
+            <label for="last-name">
+                Last Name:
+                <input type="text" id="last-name" name="last-name" required>
+            </label>
+  
+            <label for="title">
+                Title/Position:
+                <input type="text" id="title" name="title" pattern="[a-zA-Z- ]{7,}" required>
+            </label>
+  
+            <label for="email">
+                Email:
+                <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+            </label>
+  
+            <label for="phone">
+                Phone Number:
+                <input type="tel" id="phone" name="phone" required>
+            </label>
+  
+            <label for="business-name">
+                Business/Organization Name:
+                <input type="text" id="business-name" name="business-name" required>
+            </label>
+  
+            <label for="membership-level">
+                Membership Level:
+                <select id="membership-level" name="membership-level">
+                    <option value="np">NP Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label>
+  
+            <label for="description">
+                Description:
+                <textarea id="description" name="description"></textarea>
+            </label>
+  
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+  
+            <input type="submit" value="Submit Application">
+        </form>
+        </form>
+
+        <div class="membership-benefits">
+            <div class="benefit">
+                <h2>NP Membership</h2>
+                <p>NP Membership is for non-profit organizations and is free of charge. It includes access to our online community and discounted rates for special events.</p>
+            </div>
+            <div class="benefit">
+                <h2>Bronze Membership</h2>
+                <p>Bronze Membership includes all the benefits of the NP Membership, along with the opportunity to attend monthly networking events and training sessions.</p>
+            </div>
+            <div class="benefit">
+                <h2>Silver Membership</h2>
+                <p>Silver Membership includes all the benefits of Bronze Membership, plus priority registration for special events, advertising opportunities on the chamber's website, and a monthly spotlight position on the home page.</p>
+            </div>
+            <div class="benefit">
+                <h2>Gold Membership</h2>
+                <p>Gold Membership includes all the benefits of Silver Membership, as well as increased advertising opportunities, premier placement on the website, and access to exclusive chamber events.</p>
+            </div>
+        </div>
+    </div>
+  </main>
+
+
+    <footer>
+      <p>525 S Center St, Rexburg, ID 83460 | 208-317-9999 </p>
+      <p>Indiana Brown</p>
+      <p>WDD 230</p>
+      <p id="lastModified"></p>
+    </footer>
+
+    <!-- Here you will add the script for the last modification date -->
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>

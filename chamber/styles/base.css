@@ -128,3 +128,65 @@ content {
   grid-column: 2 / 4;
   size: 100%;
 }
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header, nav, main, footer {
+  padding: 20px;
+}
+
+form {
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 20px;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+form input[type="submit"] {
+  background-color: #008CBA;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #007B9A; /* Darker shade of the original color */
+}
+
+.membership-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.membership-benefits .benefit {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
+}
