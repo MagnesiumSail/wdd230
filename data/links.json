@@ -1,70 +1,101 @@
 {
     "weeks": [
-      {
-        "week": "Week 1",
-        "links": [
-          {
-            "url": "Week1/HolyGrail.html",
-            "title": "HG Layout"
-          },
-          {
-            "url": "/path/to/learning_activity_file_2",
-            "title": "Learning Activity 2"
-          }
-        ]
-      },
-      {
-        "week": "Week 2",
-        "links": [
-          {
-            "url": "/path/to/learning_activity_file_3",
-            "title": "Learning Activity 3"
-          },
-          {
-            "url": "/path/to/learning_activity_file_4",
-            "title": "Learning Activity 4"
-          }
-        ]
-      },
-      {
-        "week": "Week 3",
-        "links": [
-          {
-            "url": "/path/to/learning_activity_file_5",
-            "title": "Learning Activity 5"
-          },
-          {
-            "url": "/path/to/learning_activity_file_6",
-            "title": "Learning Activity 6"
-          }
-        ]
-      },
-      {
-        "week": "Week 4",
-        "links": [
-          {
-            "url": "/path/to/learning_activity_file_7",
-            "title": "Learning Activity 7"
-          },
-          {
-            "url": "/path/to/learning_activity_file_8",
-            "title": "Learning Activity 8"
-          }
-        ]
-      },
-      {
-        "week": "Week 5",
-        "links": [
-          {
-            "url": "/path/to/learning_activity_file_9",
-            "title": "Learning Activity 9"
-          },
-          {
-            "url": "/path/to/learning_activity_file_10",
-            "title": "Learning Activity 10"
-          }
-        ]
-      }
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "Week1/HolyGrail.html",
+                    "title": "Layout"
+                },
+                {
+                    "url": "Week1/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "https://codepen.io/jailtomjail4/pen/OJBjOKd",
+                    "title": "JS Pen"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "https://codepen.io/jailtomjail4/pen/oNaqpRY",
+                    "title": "Marquee"
+                },
+                {
+                    "url": "https://codepen.io/jailtomjail4/pen/WNazdLK",
+                    "title": "Hamburger Menu"
+                },
+                {
+                    "url": "Week02/bom.html",
+                    "title": "BOM button"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "z_images/landscape.webp",
+                    "title": "Optimized Landscape"
+                },
+                {
+                    "url": "Week03/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "Week03/bom.html",
+                    "title": "Updated BOM"
+                },
+                {
+                    "url": "Week03/responsive-images.html",
+                    "title": "Responsive Images"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/MgSail/pen/qBQPBap",
+                    "title": "Pseudo-Classes"
+                },
+                {
+                    "url": "Week04/images/Combinators.PNG",
+                    "title": "Combinators"
+                },
+                {
+                    "url": "Week04/tablebuild.html",
+                    "title": "Table Builds"
+                },
+                {
+                    "url": "Week04/WebForm/form-start/index.html",
+                    "title": "Web Form"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/MgSail/pen/abQVaYa",
+                    "title": "Pseudo-Elements"
+                },
+                {
+                    "url": "Week05/new-ward-members.json",
+                    "title": "Typed Json"
+                },
+                {
+                    "url": "Week05/prophets.html",
+                    "title": "Prophets API"
+                },
+                {
+                    "url": "Week05/weather.html",
+                    "title": "Weather API"
+                }
+            ]
+        }
     ]
-  }
-  
+}
