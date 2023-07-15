@@ -21,16 +21,12 @@ function displayLinks(weeks) {
 
     ul.innerHTML = "";
 
-    console.log('Weeks data:', weeks);
-
     weeks.forEach(weekData => {
-        console.log('Week data:', weekData);
 
         const li = document.createElement("li");
         li.textContent = `${weekData.week}: `;
         
         weekData.links.forEach((link, index) => {
-            console.log('Link data:', link);
 
             const a = document.createElement("a");
             a.href = baseURL + link.url;
