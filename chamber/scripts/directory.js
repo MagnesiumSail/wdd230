@@ -1,7 +1,7 @@
 let mainSection = document.getElementById('mainSection');
 let toggleButton = document.getElementById('toggleButton');
 
-fetchData('https://magnesiumsail.github.io/wdd230/data/members.json')
+fetchData('/data/members.json')
     .then(data => createCards(data, mainSection));
 
 toggleButton.addEventListener('click', function() {
