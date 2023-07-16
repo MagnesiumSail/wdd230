@@ -50,7 +50,7 @@
             "address": "159 East St, OldTown, OldState, 15963",
             "phone": "+1-159-357-8642",
             "website": "www.uvwretailers.com",
-            "image": "chamber/images/uvwretailers_icon.webp",
+            "image": "/images/uvwretailers_icon.webp",
             "membershipLevel": "Silver",
             "additionalInfo": "UVW Retailers is a chain of department stores in the US."
         },
@@ -59,7 +59,7 @@
             "address": "246 North St, FarTown, FarState, 24680",
             "phone": "+1-246-801-3579",
             "website": "www.ijkindustries.com",
-            "image": "chamber/images/ijkindustries_icon.webp",
+            "image": "/images/ijkindustries_icon.webp",
             "membershipLevel": "Platinum",
             "additionalInfo": "IJK Industries is an industrial goods and metal fabrication company."
         }
