@@ -1,6 +1,6 @@
 const companySpotlightsSection = document.querySelector("#company-spotlights");
 
-fetch('https://magnesiumsail.github.io/wdd230/data/members.json')
+fetch('../data/members.json')
   .then(response => response.json())
   .then(data => {
     console.log('Received data:', data);  // Add this line to see the structure of the data.
