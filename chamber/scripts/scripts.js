@@ -1,6 +1,6 @@
 const hamButton = document.querySelector('#menu');
 const navigation = document.querySelector('.navigation');
-
+//simple button
 hamButton.addEventListener('click', () => {
 	navigation.classList.toggle('open');
 	hamButton.classList.toggle('open');
@@ -9,7 +9,7 @@ hamButton.addEventListener('click', () => {
 var lastModified = document.lastModified;
 document.getElementById("lastModified").innerHTML = "Last Modified: " + lastModified;
 //bruh
-
+//Banner only appears on monday tuesday wednesday
 window.onload = function() {
     var banner = document.getElementById('banner');
     var closeButton = document.getElementById('closeButton');

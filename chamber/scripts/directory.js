@@ -1,6 +1,7 @@
 let mainSection = document.getElementById('mainSection');
 let toggleButton = document.getElementById('toggleButton');
 
+//
 fetchData('/data/members.json')
     .then(data => createCards(data, mainSection));
 
@@ -8,7 +9,7 @@ toggleButton.addEventListener('click', function() {
     toggleView(mainSection);
 });
 
-
+//Grabs and makes sure data is good.
 async function fetchData(url) {
     try {
         let response = await fetch(url);
@@ -19,6 +20,7 @@ async function fetchData(url) {
     }
 }
 
+//Fixes up the card and assigns all the response
 function createCard(company) {
     let card = document.createElement('div');
     card.className = 'card';
@@ -36,6 +38,7 @@ function createCard(company) {
     return card;
 }
 
+//Actually puts the cards on the page
 function createCards(data, containerElement) {
     data.companies.forEach(company => {
         let card = createCard(company);
@@ -43,6 +46,7 @@ function createCards(data, containerElement) {
     });
 }
 
+//toggle button
 function toggleView(element) {
     element.classList.toggle('grid-view');
 }

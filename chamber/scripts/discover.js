@@ -6,7 +6,7 @@ var timeDifference = now - lastVisit;
 var daysAgo = Math.round(timeDifference / 86400000);
 
 
-
+//keeps track of user time since last visit.
 if (lastVisit !== 0)
 {
     if (timeDifference < 84600000)

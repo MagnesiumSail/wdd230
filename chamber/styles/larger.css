@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
   }
-
+  /*Nav Switchup Yo*/
   nav {
     text-align: inherit;
   }
@@ -46,6 +46,8 @@
     display: block;
     flex: 1 1 100%;
   }
+  /*I forgot where this connects and
+  I'm too lazy to go find it*/
   .gridLayout {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
