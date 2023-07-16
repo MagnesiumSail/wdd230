@@ -5,7 +5,7 @@
             "address": "123 Main St, Anytown, Anystate, 12345",
             "phone": "+1-123-456-7890",
             "website": "www.abctech.com",
-            "image": "abctech_icon.png",
+            "image": "chamber/images/abctech_icon.webp",
             "membershipLevel": "Gold",
             "additionalInfo": "Founded in 1990, ABC Tech specializes in software development."
         },
@@ -14,7 +14,7 @@
             "address": "987 High St, Othertown, Otherstate, 98765",
             "phone": "+1-987-654-3210",
             "website": "www.xyzenterprises.com",
-            "image": "xyzenterprises_icon.png",
+            "image": "chamber/images/xyzenterprises_icon.webp",
             "membershipLevel": "Silver",
             "additionalInfo": "XYZ Enterprises is a global leader in electronics manufacturing."
         },
@@ -23,7 +23,7 @@
             "address": "456 Park Ave, Thistown, Thisstate, 45678",
             "phone": "+1-456-789-0123",
             "website": "www.pqrinnovations.com",
-            "image": "pqrinnovations_icon.png",
+            "image": "chamber/images/pqrinnovations_icon.webp",
             "membershipLevel": "Platinum",
             "additionalInfo": "PQR Innovations focuses on AI and machine learning technologies."
         },
@@ -32,7 +32,7 @@
             "address": "321 Center St, ThatTown, ThatState, 32154",
             "phone": "+1-321-654-9870",
             "website": "www.lmndesigns.com",
-            "image": "lmndesigns_icon.png",
+            "image": "chamber/images/lmndesigns_icon.webp",
             "membershipLevel": "Bronze",
             "additionalInfo": "LMN Designs is a design studio creating innovative digital experiences."
         },
@@ -41,7 +41,7 @@
             "address": "789 West St, NewTown, NewState, 78910",
             "phone": "+1-789-012-3456",
             "website": "www.rstlogistics.com",
-            "image": "rstlogistics_icon.png",
+            "image": "chamber/images/rstlogistics_icon.webp",
             "membershipLevel": "Gold",
             "additionalInfo": "RST Logistics provides supply chain solutions worldwide."
         },
@@ -50,7 +50,7 @@
             "address": "159 East St, OldTown, OldState, 15963",
             "phone": "+1-159-357-8642",
             "website": "www.uvwretailers.com",
-            "image": "uvwretailers_icon.png",
+            "image": "chamber/images/uvwretailers_icon.webp",
             "membershipLevel": "Silver",
             "additionalInfo": "UVW Retailers is a chain of department stores in the US."
         },
@@ -59,7 +59,7 @@
             "address": "246 North St, FarTown, FarState, 24680",
             "phone": "+1-246-801-3579",
             "website": "www.ijkindustries.com",
-            "image": "ijkindustries_icon.png",
+            "image": "chamber/images/ijkindustries_icon.webp",
             "membershipLevel": "Platinum",
             "additionalInfo": "IJK Industries is an industrial goods and metal fabrication company."
         }

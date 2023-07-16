@@ -60,4 +60,22 @@
     opacity: 0.8;
     transform: scale(0.95);
   }
+  .card {
+    width: 90%;
+}
+
+#toggleButton {
+    display: inline-block;
+}
+
+.grid-view {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+
+.benefit-card,
+.business-card {
+  flex: 1 1 100%;
+}
 }

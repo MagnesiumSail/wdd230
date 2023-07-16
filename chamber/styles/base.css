@@ -21,6 +21,12 @@ h2,
 h3,
 p {
   padding: 0.6em;
+  color: #333;
+}
+
+img {
+  width: 50px;
+  height: 50px;
 }
 
 header {
@@ -121,16 +127,12 @@ footer {
 }
 #exactCenter {
   display: flex;
-  justify-content: center; /* center horizontally */
-  align-items: center; /* center vertically  yes*/
+  justify-content: center;
+  align-items: center;
 }
 content {
   grid-column: 2 / 4;
   size: 100%;
-}
-
-body {
-  font-family: Arial, sans-serif;
 }
 
 header,
@@ -170,7 +172,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-color: #007b9a; /* Darker shade of the original color */
+  background-color: #007b9a;
 }
 
 .membership-benefits {
@@ -215,22 +217,179 @@ form input[type="submit"]:hover {
   flex-wrap: wrap;
 }
 
-
-@media (min-width: 768px) {
-  .card {
-      width: 90%;
-  }
-
-  #toggleButton {
-      display: inline-block;
-  }
-
-  .grid-view {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
-  }
+p {
+  color: #666;
 }
+
+
+#forecast {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+
+#forecast div {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+#forecast p {
+  margin: 0.5em 0;
+}
+
+#forecast img {
+  margin-top: 1em;
+}
+
+.banner {
+  display: none; /* hide by default */
+  width: 100%;
+  background-color: #f9ed69;
+  color: #f08a5d;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+}
+
+.banner p {
+  margin: 0;
+  margin-right: 50px;
+}
+
+.banner button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#company-spotlights {
+  display: contents;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.company-spotlight {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+.company-spotlight img {
+  width: 100px;
+  height: 100px;
+}
+
+.company-spotlight h3 {
+  color: #333;
+  margin-top: 0.5em;
+}
+
+.company-spotlight p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.company-spotlight a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+
+#benefits {
+  padding: 2em;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+#benefits h2 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-gap: 1em;
+  justify-items: center;
+}
+
+.benefit-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+.benefit-card h3 {
+  color: black;
+  margin-bottom: 0.5em;
+}
+
+.benefit-card p {
+  text-align: center;
+}
+
+#cta {
+  text-align: center;
+  margin: 2em 0;
+}
+
+#cta a {
+  display: inline-block;
+  padding: 1em 2em;
+  font-size: 1.2em;
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: .25em;
+  text-decoration: none;
+  transition: background-color .3s ease;
+}
+
+#cta a:hover {
+  background-color: #0056b3;
+}
+
+#weather-card {
+  padding: 1em;
+  background-color: #f8f9fa;
+  border-radius: .25em;
+  margin-bottom: 2em;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+#weather-card p {
+  margin: 0;
+}
+
+#weather-card figcaption {
+  font-size: .9em;
+  color: #6c757d;
+}
+
+#weather-card img {
+  vertical-align: middle;
+  margin-left: .5em;
+}
+
+
+
 
 /*#mainSection {
   display: flex;

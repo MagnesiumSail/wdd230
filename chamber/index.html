@@ -17,6 +17,10 @@
     />
     <title>Rexburg Chamber of Commerce</title>
   </head>
+  <div id="banner" class="banner">
+    <p>Come join us at the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.!</p>
+    <button id="closeButton">❌</button>
+  </div>
   <body>
     <header>
       <nav>
@@ -35,21 +39,39 @@
       <section id="hero-image">
         <img src="images/heroimage.jpg" alt="Hero Image" />
       </section>
+      <section id="benefits">
+        <h2>Benefits of Joining Our Chamber of Commerce</h2>
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <h3>Networking Opportunities</h3>
+            <p>Meet other business owners and potential customers at our networking events.</p>
+          </div>
+          <div class="benefit-card">
+            <h3>Business Exposure</h3>
+            <p>Get your business listed in our directory and participate in our marketing campaigns.</p>
+          </div>
+          <div class="benefit-card">
+            <h3>Education and Training</h3>
+            <p>Attend seminars and workshops to learn more about running a successful business.</p>
+          </div>
+        </div>
+      </section>
 
       <section id="cta">
-        <a href="join.html">Join the Chamber of Commerce</a>
+        <a href="join.html">Join the Chamber of Commerce Here</a>
       </section>
 
-      <section id="current-events">
-        <p>Current Events:</p>
-      </section>
 
       <section id="weather-card">
-        <p>Weather: </p>
+        <p>Weather: <span id="current-temp"></span><figcaption></figcaption><img id="weather-icon" src="" alt=""></p>
       </section>
 
+      <h2 style="text-align: center;">3-Day Forecast</h2>
+      <section id="forecast">
+      </section>
+      
+      <p style="text-align: center;">Compant Spotlights</p>
       <section id="company-spotlights">
-        <p>Compant Spotlights:</p>
       </section>
     </main>
 
@@ -59,8 +81,9 @@
       <p>WDD 230</p>
       <p id="lastModified"></p>
     </footer>
-
-    <!-- Here you will add the script for the last modification date -->
     <script src="scripts/scripts.js"></script>
+    <script src="/z_scripts/weatherAPI.js"></script>
+    <script src="/z_scripts/forecast.js"></script>
+    <script src="scripts/companySpotlights.js"></script>
   </body>
 </html>
